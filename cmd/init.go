@@ -273,6 +273,7 @@ func (v initCommand) Execute(args []string) error {
 		s.Groups == "" {
 		changed = true
 		s.Groups = groupStr
+			//comment
 	}
 
 	if v.cmd.Flags().Changed("reference") {
